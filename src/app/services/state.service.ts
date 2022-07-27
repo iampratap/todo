@@ -8,6 +8,7 @@ import jwt_decode from 'jwt-decode';
 export class StateService {
   token = "";
   user = {};
+  todos = [];
 
   constructor(private _router:Router) { }
 
